@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@200..700&family=Radio+Canada+Big:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  background-color: rgb(14 12 21) !important;
+  scroll-behavior: smooth;
+}
+.d {
+  transform: translate(-50%, -50%);
+}
+.shadman {
+  box-shadow: 0px 0px 15px 0px rgb(190, 0, 190);
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bf00ff;
+  border-radius: 45px;
+}
+.bg-grid-white {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.05)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}
+.shadbase:hover {
+  box-shadow: 0px 0px 15px 0px rgb(190, 0, 190);
+}
+.shadbase {
+  transition: all;
+  transition-duration: 300ms;
+}
+.shadbase2:hover {
+  box-shadow: 0px 0px 15px 0px rgb(190, 0, 190);
+  background-color: transparent;
+}
+.shadbase2 {
+  transition: all;
+  transition-duration: 300ms;
+}
+@media (min-width: 300px) {
+  .line {
+    font-size: 20px;
+  }
+}
